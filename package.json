@@ -1,0 +1,10 @@
+{
+  "name": "eat-well",
+  "private": true,
+  "scripts": {
+    "mobile": "pnpm --filter mobile start",
+    "android": "pnpm --filter mobile android",
+    "ios": "pnpm --filter mobile ios",
+    "web": "pnpm --filter web dev"
+  }
+}
